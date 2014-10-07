@@ -12,5 +12,8 @@ $data = 'Allow';
 if (mysqli_num_rows ($result) != 0){
 	echo $data;
 }
+else{
+	echo 'Disallow';
+}
 mysqli_close($con);
 ?>
